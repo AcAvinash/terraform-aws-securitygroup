@@ -1,4 +1,4 @@
 output "security_group_id" {
   description = "The ID of the security group"
-  value       = aws.security_group_id.main.id
+  value       = aws.security_group.main.id
 }
